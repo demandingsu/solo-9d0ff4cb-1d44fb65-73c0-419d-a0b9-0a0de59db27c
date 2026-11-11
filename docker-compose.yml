@@ -1,7 +1,7 @@
 services:
   api:
     build: .
-    image: tender-collector-api:1.0.0
+    image: tender-collector-api:2.0.0
     container_name: tender-collector-api
     ports:
       - "8000:8000"
